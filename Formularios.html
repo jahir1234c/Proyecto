@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <center>
+        <h1>FORMULARIOS</h1><hr>
+    </center>
+    <form action="index.html" method="GET" enctype="text/plain">
+<table border width="90%" style="margin: auto;"
+    cellspacing="0">
+    <tr align="center">
+        <td> NOMBRE</td>
+        <td>DESCRIPCION</td>
+        <td>EJEMPLO</td>
+    </tr>
+    <tr>
+        <td>CAMPO DE TEXTO</td>
+        <td>sirve para recopilar informacion</td>
+        <td><input type="text" name="nombre" id="nomid" placeholder="Introduce tu Nombre" required value="jahir" maxlength="10" ></td>
+    </tr>
+    <tr>
+        <td>CAMPO CONTRASEÑA</td>
+        <td> Oculta los caracteres cuando escribes</td>
+        <td><input type="password" placeholder="Introduce contraseña"></td>
+
+    </tr>
+    <tr>
+        <td>CASILLA DE VERIFICACION</td>
+        <td></td>
+        <td><input type="checkbox"> <input type="checkbox" checked > </td>
+    </tr>
+    <tr>
+        <td>BOTON RADIO</td>
+        <td></td>
+        <td><input type="radio" name="escuela" id="boton 1">cecytem <br>
+            <input type="radio" name="escuela" id="boton 2">cbt <br>
+               <input type="radio" name="escuela" id="boton 3">conalep <br>
+        </td>
+    </tr>
+    <tr>
+        <td>CAMPO OCULTO</td>
+        <td></td>
+        <td><input type="hidden" name="oculto" id="oculto" value="Mi contraseña es:1234"></td>
+    </tr>
+    <tr>
+        <td>AREA DE TEXTO</td>
+        <td></td>
+        <td><textarea name="texto" id="texto" cols="30" rows="10" nosize > </textarea></td>
+    </tr>
+    <tr>
+        <td>LISTA DESPEGABLE</td>
+        <td></td>
+        <td> 
+            <select name="lista" id="lista">
+            <option value="Gerson">Gerson</option>
+            <option value="Gerso">Gerso</option>
+            <option value="Gers">Gers</option>
+            <option value="Lael">Lael></option>
+            <option value="jahir">jahir</option>
+
+        </select>
+    </td>
+    </tr>
+    <tr>
+        <td>BOTON ENVIAR </td>
+        <td>EL BOTON MAS IMPORTANTE</td>
+        <td><input type="submit" value="Enviar"></td>
+    </tr>
+    <tr>
+        <td>BOTON IMAGEN </td>
+        <td></td>
+        <td><input type="image" src="OIP.jpg"></td>
+    </tr>
+    <tr>
+        <td>BOTON BORRAR</td>
+        <td></td>
+        <td><input type="reset" value="borrar"></td>
+    </tr>
+    <tr>
+        <td>BOTON COLOR</td>
+        <td></td>
+        <td><input type="color" name="" id=""></td>
+    </tr>
+    <tr>
+        <td>13. BOTON COMANDO</td>
+        <td></td>
+        <td><input type="button" value="Aceptar"></td>
+    </tr>
+    <tr>
+        <td>14.CAMPOFECHA</td>
+        <td></td>
+        <td><input type="date" name="" id=""></td>
+    </tr>
+    <tr>
+        <td>15.FECHA Y HORA</td>
+        <td></td>
+        <td><input type="datetime" name="" id=""></td>
+    </tr>
+    <tr>
+        <td>16.fecha y hora local</td>
+        <td></td>
+        <td><input type="datetime-local" name="" id=""></td>
+    </tr>
+    <tr>
+        <td>17.EMAIL</td>
+        <td></td>
+        <td><input type="email" name="" id=""></td>
+    </tr>
+    <tr>
+        <td>18.CAMPO ARCHIVO</td>
+        <td></td>
+        <td><input type="file" name="" id=""></td>
+    </tr>
+    <tr>
+        <td>19.mes año</td>
+        <td></td>
+        <td><input type="month" name="" id=""></td>
+    </tr>
+    <tr>
+        <td>20.NUMERICO</td>
+        <td></td>
+        <td><input type="number" name="" id="" step="0.5" value="0"></td>
+    </tr>
+    <tr>
+        <td>21.slider</td>
+        <td></td>
+        <td><input type="range" name="" id="" value="0" max="100"></td>
+    </tr>
+    <tr>
+        <td>22.CAMPO BUSQUEDA</td>
+        <td></td>
+        <td><input type="search" name="" id=""></td>
+    </tr>
+    <tr>
+        <td>23.CAMPO TELEFONO</td>
+        <td></td>
+        <td><input type="tel" name="" id=""></td>
+    </tr>
+    <tr>
+        <td>24.HORA</td>
+        <td></td>
+        <td><input type="time" name="" id=""></td>
+    </tr>
+    <tr>
+        <td>25.URL</td>
+        <td></td>
+        <td><input type="url" name="" id=""></td>
+    </tr>
+    <tr>
+        <td>26.SEMANA</td>
+        <td></td>
+        <td><input type="week" name="" id=""></td>
+    </tr>
+    <tr>
+        <td>27.Lista Oculta</td>
+        <td></td>
+        <td>
+            <input list="paises" type="text"/>
+            <datalist id="browsers">
+            <option value="Chrome"></option>
+            <option value="Firefox"></option>
+            <option value="Internet Explorer"></option>
+            <option value="Opera"></option>
+            <option value="Safari"></option>
+            <option value="Microsoft Edge"></option>
+          </datalist>
+        </td>
+
+    </tr>
+    <tr>
+        <td>28.barra de progreso</td>
+        <td></td>
+        <td><progress id="file" max="100" value="70">70%</progress></td>
+    </tr>
+    
+    <tr>
+        <td>29.Estetico</td>
+        <td></td>
+        <td>
+            <fieldset>
+                <legend>Información Personal</legend>
+                Nombre: <input name='nombre' type='text' tabindex='1'>
+                Apellidos: <input name='apellidos' type='text' tabindex='2'>
+               </fieldset>
+              
+               <fieldset>
+                <legend>edad</legend>
+                <input type='checkbox' tabindex='20'
+                          name='edad' value='20-39' > 20-39
+                <input type='checkbox' tabindex='21'
+                          name='edad' value='40-59' > 40-59
+                <input type='checkbox' tabindex='22'
+                          name='edad' value='60-79' > 60-79
+               </fieldset>
+              
+              
+        </td>
+    </tr>
+    
+    <tr>
+        <td>30.</td>
+        <td></td>
+        <td></td>
+    </tr>
+    
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    
+    
+</table>
+
+
+    </form>
+</body>
+</html>
